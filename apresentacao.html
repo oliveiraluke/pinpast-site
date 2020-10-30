@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pinpast - aplicativo Windows Phone para reconhecimento de pontos históricos.">
+    <meta name="author" content="Lucas de Oliveira Gonçalves">
+	<meta name="keywords" content="pinpast, aplicativo de reconhecimento de pontos históricos, pinpast Windows Phone, Lucas de Oliveira, @oliveialuke">
+	
+	<!-- Facebook -->
+    <meta property="og:locale" content="pt_BR"> <!--locale-->
+    <meta property="og:url" content="http://www.pinpast.hol.es"> <!--URL-->
+    <meta property="og:title" content="pinpast"> <!--title-->
+    <meta property="og:site_name" content="pinpast"> <!--title-->
+    <meta property="og:description" content="aplicativo Windows Phone para reconhecimento de pontos históricos"> <!--Description-->
+    http://www.pinpast.hol.es/images/logo.jpg
+    <meta property="og:image:type" content="image/jpeg"> <!--Images-->
+    <meta property="og:type" content="website"> <!--type-->   
+
+	<title>pinpast - apresentação</title>  
+	
+	<!-- Favicon -->	
+	
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/> 	
+	
+	<!-- CSS -->
+	
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/estilo.css" rel="stylesheet">
+	<link href="css/layout.css" rel="stylesheet">
+
+	<!-- Font -->
+	
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    
+	<!-- JavaScript -->
+	
+    <script src="javascripts/jquery-1.10.2.js"></script>
+    <script src="javascripts/bootstrap.js"></script>
+	<script src="javascripts/modal.js"></script>
+	
+</head>
+<body>
+
+	<a name="topo" id="topo"></a>
+	<!-- Menu  -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+			
+				<!-- Botão de menu -->   
+				
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				
+				<!-- Título do site -->
+				
+                <a class="navbar-brand" href="index.html">pinpast</a>
+            </div>
+
+            <!-- Menu -->
+            <!--<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="login.html">Entrar</a></li>
+                </ul>
+            </div>-->
+        </div>
+    </nav>
+
+	<!-- Container de conteúdo 1 - introdução -->
+	<div class="content-section-b">
+
+		<div class="container">
+
+           <div class="row">
+				<div class="col-lg-5 col-sm-6" style="width:100%;">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+					<h2 class="section-heading">introdução</h2>
+					<p class="lead" style="text-align:justify;">Aplicativo mobile para a plataforma Microsoft Windows Phone 8.1 que tem como principal funcionalidade o reconhecimento de pontos históricos de uma cidade a partir da leitura de QR Code, utilizando o sensor da câmera do aparelho.</p>
+					<p class="lead" style="text-align:justify;">Através do código lido, o aplicativo busca informações específicas em seu banco de dados local e as apresenta em uma tela personalizada, onde o usuário pode, dentre outras opções, realizar seu check-in. Através deste recurso, é possível visualizar em um mapa, recomendações de outros pontos históricos por ordem de aproximação, juntamente com uma sugestão de rota obtida com os recursos de GPS.</p>
+					<p class="lead" style="text-align:justify;">A aplicação tem como objetivo fornecer informações de qualidade e, principalmente, confiáveis sobre pontos históricos de uma localidade. Tendo como foco a história e a cultura local, o aplicativo busca incentivar o usuário a conhecer um pouco mais sobre o passado de sua cidade, auxiliando na preservação e resgate do mesmo. Os locais integrantes da área de abrangência do aplicativo são pré-definidos e suas informações coletadas através de pesquisas e entrevistas com especialistas.</p>
+					<br/>
+					<p class="lead" style="text-align:justify;">Veja abaixo algumas das principais telas e funcionadades do pinpast.</p>
+				</div>
+			</div>
+
+        </div>	
+			   		
+    </div>
+
+	<!-- Container de conteúdo 2 - tela principal -->
+	<div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">tela principal</h2>
+					<p class="lead" style="text-align:justify;">Tela inicial do aplicativo, apresenta um menu contendo suas funcionalidades básicas, que redirecionam para suas respectivas telas. Além de exibir os cinco últimos locais visitados pelo usuário em ordem decrescente.</p>
+				</div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/telaprincipal.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    	
+	<!-- Container de conteúdo 3 - leitura  -->
+	<div class="content-section-b">
+
+        <div class="container">
+            
+			<div class="row">
+				<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+						<h2 class="section-heading">leitura</h2>
+						<p class="lead" style="text-align:justify;">Tela para escaneamento de QR Code dos locais cadastrados, através da câmera do aparelho. O código decifrado é responsável por buscar as informações do ponto específico para a personalização da tela sobre o local.</p>
+					</div>
+				<div class="col-lg-5 col-sm-pull-6  col-sm-6">
+					<img class="img-responsive" src="images/leitura.png">
+				</div>
+			</div> 
+				
+        </div>
+
+    </div>	
+   
+    <!-- Container de conteúdo 4 - local -->
+	<div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">local</h2>
+					<p class="lead" style="text-align:justify;">Exibe informações básicas e contexto histórico a respeito do local identificado, incluindo referências bibliográficas deste material, como um diferencial do aplicativo, tornando seu conteúdo mais confiável. Estas que também servem como indicações para obtenção de maiores informações sobre o local corrente.</p>
+				</div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/local.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    	
+	<!-- Container de conteúdo 5 - check-in  -->
+	<div class="content-section-b">
+
+        <div class="container">
+            
+			<div class="row">
+				<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+						<h2 class="section-heading">check-in</h2>
+						<p class="lead" style="text-align:justify;">É exibida uma mensagem, juntamente com nome do local, data e hora do check-in realizado na tela. Este que pode ser compartilhado em redes sociais.</p>
+					</div>
+				<div class="col-lg-5 col-sm-pull-6  col-sm-6">
+					<img class="img-responsive" src="images/check.png">
+				</div>
+			</div> 
+				
+        </div>
+
+    </div>	
+	
+	<!-- Container de conteúdo 6 - próximo -->
+	<div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">próximo</h2>
+					<p class="lead" style="text-align:justify;">É apresentado o ponto histórico cadastrado no aplicativo mais próximo do local corrente, juntamente com sua distância (em metros). Há opções para visualização de mapas, rotas e navegação por GPS até o mesmo.</p>
+				</div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/proximo.png" alt="" style="margin-left:200px;">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    	
+	<!-- Container de conteúdo 7 - mapa geral  -->
+	<div class="content-section-b">
+
+        <div class="container">
+            
+			<div class="row">
+				<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+						<h2 class="section-heading">mapa geral</h2>
+						<p class="lead" style="text-align:justify;">Exibição de toda a área coberta pelo aplicativo, com a localização de seus pontos históricos cadastrados.</p>
+					</div>
+				<div class="col-lg-5 col-sm-pull-6  col-sm-6">
+					<img class="img-responsive" src="images/mapageral.png" alt="">
+				</div>
+			</div> 
+				
+        </div>
+
+    </div>	
+   
+    <!-- Container de conteúdo 8 - histórico -->
+	<div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">histórico</h2>
+					<p class="lead" style="text-align:justify;">Histórico de check-ins realizados no aplicativo.</p>
+				</div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/historico.png" alt="" style="margin-left:200px;">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    	
+	<!-- Container de conteúdo 9 - pesquisar  -->
+	<div class="content-section-b">
+
+        <div class="container">
+            
+			<div class="row">
+				<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+					<hr class="section-heading-spacer">
+					<div class="clearfix"></div>
+						<h2 class="section-heading">pesquisar</h2>
+						<p class="lead" style="text-align:justify;">Pesquisa de pontos históricos dentro do aplicativo.</p>
+					</div>
+				<div class="col-lg-5 col-sm-pull-6  col-sm-6">
+					<img class="img-responsive" src="images/pesquisar.png" alt="">
+				</div>
+			</div> 
+				
+        </div>
+
+    </div>	
+      
+   <!-- Banner - loja  -->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Disponível na Windows Phone Store</h2>
+					<p style="font-size:25px; color:#000000">Baixe já!</p>			
+					<!--<a href="http://goo.gl/forms/2cJ9ieIm9h" target="new"><button class="btn btn-default btn-lg" type="submit" style="margin-top:10px;">Clique aqui</button></a>				-->
+				</div>
+				<a href="http://www.windowsphone.com/pt-br/store/app/pinpast/a7eff3bc-9fa8-45a8-8330-eebf7c8bda5e" target="new"><img src="images/store-logo.png" style="float:right; margin-top:35px;" title="Disponível na Windows Phone Store"/></a>
+            </div>
+        </div>
+    </div>
+    
+	<!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" style="float:left; width:90%;">
+                    <ul class="list-inline">
+						pinpast
+                    </ul>
+                    <!--<p class="copyright text-muted small">pinpast 2014.-->
+						<p class="copyright text-muted small">Desenvolvido por <a href="http://behance.net/oliveiraluke" target="new">Lucas de Oliveira Gonçalves</a></p>
+                </div>				
+				<a href="#topo"><img src="images/up.png" class="pull-right" style="width:50px; height:50px; float:right; margin-top:0px;" title="topo"/></a>
+            </div>
+        </div>
+
+    </footer>
+	
+	<!-- Carrega todos os JS -->
+	<script type="text/javascript" src="javascripts/jsLoader.js"></script>	
+
+	<script type="text/javascript">	
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true, 
+				continuous: true,
+				pause: 5000,
+				controlsShow: false
+			});
+		});	
+	</script>
+
+</body>
+</html>

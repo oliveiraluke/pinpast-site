@@ -1,0 +1,25 @@
+/* Phone screenshot Slider */
+	#phonescreens {
+		background:transparent url(../images/phonebackground.jpg) no-repeat;
+		height:550px;
+		width: 50%;
+		margin-top:70px;
+		float:left;
+	}
+
+	#phonescreens #slider {
+		margin: 0px 47px;
+		padding-top:30px;
+	}
+	
+	#slider ul, #slider li {
+		padding:0;
+		list-style:none;
+		}		
+
+	#slider li { 
+		width:240px;
+		height:800px;
+		overflow:hidden; 
+		padding-top:22px;
+		}	

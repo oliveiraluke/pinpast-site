@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="pinpast - aplicativo Windows Phone para reconhecimento de pontos históricos.">
+    <meta name="author" content="Lucas de Oliveira Gonçalves">
+	<meta name="keywords" content="pinpast, aplicativo de reconhecimento de pontos históricos, pinpast Windows Phone, Lucas de Oliveira, @oliveialuke">
+	
+	<!-- Facebook -->
+    <meta property="og:locale" content="pt_BR"> <!--locale-->
+    <meta property="og:url" content="http://www.pinpast.hol.es"> <!--URL-->
+    <meta property="og:title" content="pinpast"> <!--title-->
+    <meta property="og:site_name" content="pinpast"> <!--title-->
+    <meta property="og:description" content="aplicativo Windows Phone para reconhecimento de pontos históricos"> <!--Description-->
+    <meta property="og:image" content="http://www.pinpast.hol.es/images/logo.jpg"> <!--Images-->
+    <meta property="og:image:type" content="image/jpeg"> <!--Images-->
+    <meta property="og:type" content="website"> <!--type-->   
+
+    <title>pinpast</title>  
+
+	<!-- Favicon -->	
+	
+	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon"/> 	
+	
+	<!-- CSS -->
+	
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/estilo.css" rel="stylesheet">
+	<link href="css/layout.css" rel="stylesheet">
+
+	<!-- Font -->
+	
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    
+	<!-- JavaScript -->
+	
+    <script src="javascripts/jquery-1.10.2.js"></script>
+    <script src="javascripts/bootstrap.js"></script>
+	<script src="javascripts/modal.js"></script>
+	
+</head>
+<body>
+
+	<a name="topo" id="topo"></a>
+	<!-- Menu  -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+			
+				<!-- Botão de menu -->   
+				
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				
+				<!-- Título do site -->
+				
+                <a class="navbar-brand" href="index.html">pinpast</a>
+            </div>
+
+            <!-- Menu -->
+            <!--<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="login.html">Entrar</a></li>
+                </ul>
+            </div>-->
+        </div>
+    </nav>
+
+	<!-- Cabeçalho  -->
+    <div class="intro-header">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>pinpast</h1>
+                        <h3>Aplicativo para reconhecimento de pontos históricos</h3>
+                        <hr class="intro-divider">
+						<a href="#avaliacao"><h3>↓ Avalie este projeto! ↓</h3></a>
+						<!--<a href="http://goo.gl/forms/2cJ9ieIm9h" target="new"><button class="btn btn-default btn-lg" type="submit" style="margin-top:10px;">Avalie o projeto</button></a>					-->
+                        <!--<ul class="list-inline intro-social-buttons">
+                            <li><a href="login.html" class="btn btn-default btn-lg"><span>Vote agora</span></a></li>
+						</ul>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Container de conteúdo 1 - apresentação -->
+	<div class="content-section-b">
+
+		<div class="container">
+
+            <div id="phonescreens" class="six columns">
+				<div id="slider">
+					<ul>				
+						<li><img src="images/screenshots/screenshot0.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot1.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot2.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot3.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot4.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot5.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot6.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot7.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot8.png" alt="App Screenshot" /></li>
+						<li><img src="images/screenshots/screenshot9.png" alt="App Screenshot" /></li>
+					</ul>
+				</div>
+			</div>     
+			
+			<div class="row" style="float:left; margin-top:0px; width:50%;">
+                 <div class="col-lg-5 col-sm-6" style="width:100%;">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+					<h2 class="section-heading">apresentação</h2>
+                    <p style="font-size:14px; text-align:justify;">O pinpast é um aplicativo de reconhecimento de pontos históricos.</p>
+					<p style="font-size:14px; text-align:justify;">Com o pinpast você obtém informações de qualidade acerca do contexto histórico de monumentos e locais de cidades à partir da leitura de QR Code ou localização por GPS.</p>
+					<p style="font-size:14px; text-align:justify;">A ideia é simples: sabe aquele local pelo qual você passa correndo todos os dias? Pois bem, ele pode ter uma longa e interessante história...</p>
+					<br/>
+					<p style="font-size:14px; text-align:justify;">Funcionalidades da versão 1.0:</p>
+				
+					<ul type="square" style="font-size:14px; text-align:justify;">
+						<li>leitura de QR Code dos pontos históricos pré-definidos,</li>
+						<li>exibição de tela personalizada dos monumentos e locais com informações específicas,</li>
+						<li>realização de check-ins dos locais durante visitação,</li>
+						<li>recomendação de local aproximado com visualização em mapas, rotas e navegação por GPS,</li>
+						<li>integração com clientes de email e redes sociais instaladas no dispositivo, Here Maps, Here Drive e outros serviços externos,</li>
+						<li>pesquisa por pontos históricos,</li>
+						<li>exibição de mapa geral com os locais abrangentes da aplicação,</li>
+						<li>exibição de locais recentes visitados,</li>
+						<li>gravação e manutenção de histórico do aplicativo,</li>
+						<li>instruções de utilização do aplicativo,</li>
+						<li>opções de configurações,</li>
+						<li>envio de feedback na loja</li>
+						<li>pesquisa personalizada na web,</li>
+						<li>informações confiáveis e de qualidade, entre outras.</li>
+					</ul>
+					
+					<br/>
+					<p style="font-size:14px; text-align:justify;">Em breve novas funcionalidades...</p>
+	
+				</div>
+            </div>
+
+        </div>	
+			   		
+    </div>
+
+	<!-- Container de conteúdo 2 - sobre o projeto -->
+	<div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">sobre o projeto</h2>
+					<p class="lead" style="text-align:justify;">Este aplicativo foi desenvolvido como trabalho de conclusão do curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas. Atualmente se encontra em fase de testes e validação.</p>
+					<a href="apresentacao.html"><button class="btn btn-default btn-lg" type="submit" style="margin-top:10px;">saiba mais</button></a>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/1.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    	
+	<!-- Container de conteúdo 3 - avalie o aplicativo  -->
+	<div class="content-section-b">
+
+        <div class="container">
+            
+                <a name="avaliacao" id="avaliacao"></a>
+				<div class="row">
+					<div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+						<hr class="section-heading-spacer">
+						<div class="clearfix"></div>
+						<h2 class="section-heading">avalie o aplicativo</h2>
+						<p class="lead" style="text-align:justify;">Você pode avaliar o pinpast e registrar sua opinião respondendo um pequeno questionário. Leva apenas alguns minutos! =)</p>
+						<a href="#janela1" rel="modal"><button class="btn btn-default btn-lg" type="submit" style="margin-top:10px;">avalie</button></a>
+					</div>
+					<div class="col-lg-5 col-sm-pull-6  col-sm-6">
+						<img class="img-responsive" src="images/avalie.png" alt="">
+					</div>
+				</div>
+ 
+				<!-- Modal -->
+				<div class="window" id="janela1">
+					<a href="#" class="fechar"><img src="images/close.png" style="height:15px; width:15px;"/></a>
+					<h4><strong>Alguns passos (opcionais)</strong></h4>
+					<br/>
+					<h4>1 - Tem dispositivo Windows Phone (versão 8.1)?</h4>
+					<p>Você pode baixar o pinpast e testa-lo aqui ó -> <a href="http://www.windowsphone.com/pt-br/store/app/pinpast/a7eff3bc-9fa8-45a8-8330-eebf7c8bda5e" target="new">Windows Phone Store</a>.
+					<br/>QR Code para teste -> <a href="#janela2" rel="modal">clique aqui</a>.</p>
+					<br/>
+					<h4>2 - Caso não tenha acesso a um Windows Phone...</h4>
+					<p>Saiba mais sobre as principais telas e funcionalidades do aplicativo -> <a href="apresentacao.html">clique aqui</a>.</p>
+					<br/>
+					<h4>3 - Responda o questionário</h4>
+					<center>
+						<a href="http://goo.gl/forms/rYRRL61P71" target="new"><button class="btn btn-default btn-lg" type="submit" style="margin-top:10px;">vai</button></a>
+					
+						<br/><br/>
+						<h3>Desde já, agradeço a sua participação!</h3>
+						<br/>
+						<img src="images/Windows Phone logo.png" style="width:60px; height:100px;"/>
+					</center>					
+				</div>		
+				
+				<!-- Modal QR -->
+				<div class="window" id="janela2">
+				<a href="#" class="fechar"><img src="images/close.png" style="height:15px; width:15px;"/></a>
+				<h4><strong>Posicione a câmera do aparelho em frente ao código para efetuar a leitura...</strong></h4>
+				<br/>
+				<center>
+					<img src="images/QR.png" style="width:300px; height:300px;"/>								
+				</center>
+				</div>		
+				
+				<!-- mascara para cobrir o site -->  
+				<div id="mascara"></div>
+        </div>
+
+    </div>	
+		
+	<!-- Container de conteúdo 4 - sobre o desenvolvedor -->
+	<div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">sobre o desenvolvedor</h2>
+					<p class="lead" style="text-align:justify;">Lucas de Oliveira Gonçalves é estudante em Análise e Desenvolvimento de Sistemas pela ULBRA Canoas.</p>
+					<p class="lead" style="text-align:justify;"><strong>Email: </strong><a href="mailto:lucasoligon@hotmail.com">lucasoligon@hotmail.com</a></p>
+					<p class="lead" style="text-align:justify;"><strong>Outros trabalhos: </strong><a href="http://www.windowsphone.com/pt-BR/store/publishers?publisherId=Lucas%2Bde%2BOliveira%2BGon%25c3%25a7alves" target=new">aplicativos na Windows Phone Store</a></p>					
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="images/yo.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+   
+   <!-- Banner - loja  -->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Disponível na Windows Phone Store</h2>
+					<p style="font-size:25px; color:#000000">Baixe já!</p>			
+					<!--<a href="http://goo.gl/forms/2cJ9ieIm9h" target="new"><button class="btn btn-default btn-lg" type="submit" style="margin-top:10px;">Clique aqui</button></a>				-->
+				</div>
+				<a href="http://www.windowsphone.com/pt-br/store/app/pinpast/a7eff3bc-9fa8-45a8-8330-eebf7c8bda5e" target="new"><img src="images/store-logo.png" style="float:right; margin-top:35px;" title="Disponível na Windows Phone Store"/></a>
+            </div>
+        </div>
+    </div>
+    
+	<!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="row">			
+                <div class="col-lg-12" style="float:left; width:90%;">
+                    <ul class="list-inline">
+						pinpast
+                    </ul>
+                    <!--<p class="copyright text-muted small">pinpast 2014.-->
+						<p class="copyright text-muted small">Desenvolvido por <a href="http://behance.net/oliveiraluke" target="new">Lucas de Oliveira Gonçalves</a></p>
+                </div>
+				<a href="#topo"><img src="images/up.png" class="pull-right" style="width:50px; height:50px; float:right; margin-top:0px;" title="topo"/></a>
+            </div>
+        </div>
+
+    </footer>
+	
+	<!-- Carrega todos os JS -->
+	<script type="text/javascript" src="javascripts/jsLoader.js"></script>	
+
+	<script type="text/javascript">	
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: true, 
+				continuous: true,
+				pause: 5000,
+				controlsShow: false
+			});
+		});	
+	</script>
+
+</body>
+</html>
